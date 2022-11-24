@@ -1,0 +1,33 @@
+@use './variables' as c;
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-image: url(img/banner-map.png);
+    color: c.$primary;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#pc_logo{
+    width: 120px;
+    margin-left: 5rem;
+}
+
+#pc_ul_nav{
+    width: 100%;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+#pc_ul_nav li{
+    list-style: none;
+    padding: 0 20px;
+    display: inline-block;
+    justify-content: center;
+    font-weight: 600;
+}
+
