@@ -43,12 +43,27 @@ h2 {
 }
 
 .pc_productg {
-  background-image: url(./img/Accesorio.jpg);
   width: 30rem;
   height: 30rem;
   background-size: cover;
   color: #fff;
   align-items: center;
+}
+
+.ropa {
+  background-image: url(./img/Ropa.jpg);
+}
+
+.musica {
+  background-image: url(./img/musica.jpg);
+}
+
+.servicios {
+  background-image: url(./img/servicios.jpg);
+}
+
+.espacios {
+  background-image: url(./img/espacios.jpg);
 }
 
 #pc_productContainer {
@@ -57,7 +72,7 @@ h2 {
   justify-content: space-between;
 }
 #pc_productContainer p {
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   padding-top: 225px;
 }
@@ -161,6 +176,54 @@ h2 {
   display: grid;
   grid-template-columns: auto auto auto auto;
   justify-content: space-between;
+}
+.pc-container-toolBox .h3-tools {
+  color: #f49619;
+  margin-bottom: 10px;
+}
+.pc-container-toolBox .pc-tool {
+  margin-right: 3rem;
+  text-align: center;
+}
+.pc-container-toolBox .last {
+  margin: 0;
+}
+
+#pc-bannerInvitation {
+  background-image: url(./img/banner-invitacion.jpg);
+  height: 25rem;
+  background-size: cover;
+  text-align: center;
+}
+#pc-bannerInvitation #pc-h2-bannerInvitation {
+  color: #fff;
+  font-size: 60px;
+  padding-top: 8rem;
+}
+#pc-bannerInvitation .pc-yellowButton {
+  border: none;
+  background-color: #f49619;
+  font-size: 40px;
+  padding: 10px 10px 10px 10px;
+  color: #2f2a71;
+  font-weight: 700;
+}
+
+.pc_footer-container {
+  background-color: #6B4B9B;
+  height: 10rem;
+  margin-top: 5rem;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.pc_footer-container img {
+  width: 600px;
+}
+.pc_footer-container p {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 7rem;
 }
 
 * {
